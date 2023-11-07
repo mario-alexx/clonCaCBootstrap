@@ -17,7 +17,7 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <nav id="conferencia" class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="./img/imagenes_integrador_front/codoacodo.png" width="120" alt="Logo Codo a Codo">
@@ -29,19 +29,19 @@
       <div class="collapse navbar-collapse justify-content-end mx-3" id="navbarNav">
         <ul class="navbar-nav fw-semibold">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+            <a class="nav-link active" aria-current="page" href="#conferencia">La Conferencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Los oradores</a>
+            <a class="nav-link" href="#oradores">Los oradores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">El lugar y la fecha</a>
+            <a class="nav-link" href="#lugar">El lugar y la fecha</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Conviértete en orador</a>
+            <a class="nav-link" href="#convierteOrador">Conviértete en orador</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-success" href="#">Comprar tickets</a>
+            <a class="nav-link active text-success" href="ticket.html">Comprar tickets</a>
           </li>
         </ul>
       </div>
@@ -71,12 +71,12 @@
       </div>
     </section>
     <!-- Oradores -->
-    <section class="container-fluid mt-3 ">
+    <section id="oradores" class="container-fluid mt-3 ">
       <div class="text-center fs-6">
         <p class="text-uppercase small">Conoce a los</>
         <h2 class="text-uppercase fw-semibold">Oradores</h2>
       </div>
-      <div class="card-group w-75 mx-auto fw-light row mx-3">
+      <div class="card-group mx-auto fw-light row mx-3 md-3">
         <div class="card ">
           <img src="./img/imagenes_integrador_front/steve.jpg" class="card-img-top" alt="Foto de Steve Jobs">
           <div class="card-body">
@@ -107,7 +107,7 @@
       </div>
     </section>
     <!-- Otro Card -->
-    <section class="container-fluid mt-5">
+    <section id="lugar" class="container-fluid mt-5">
       <div class="card mb-3">
         <div class="row g-1">
           <div class="col-md-6">
@@ -128,7 +128,7 @@
       </div>
     </section>
     <!-- Form -->
-    <section class="container-fluid">
+    <section id="convierteOrador" class="container-fluid">
       <div class="text-center fs-6">
         <p class="text-uppercase small">Conviértete en un</>
         <h2 class="text-uppercase fw-semibold">Orador</h2>
